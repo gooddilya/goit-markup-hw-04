@@ -1,0 +1,5 @@
+{
+    "files.autoSave": "onWindowChange",
+    "editor.fontSize": 17,
+    "better-comments.highlightPlainText": true
+}
