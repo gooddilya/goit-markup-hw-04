@@ -555,8 +555,17 @@ img {
 .card-link:hover,
 .card-link:focus {
   transform: translateY(0%);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.card-link:hover .card-paragraph,
+.card-link:focus .card-paragraph{
+  transform: translateY(0%);
+
+
+}
 .card-list {
   display: flex;
   flex-wrap: wrap;
@@ -746,7 +755,7 @@ img {
 .modal-button-close:focus {
   background-color: var(--ocean);
   border: none;
-  /* fill: #ffffff; */
+  fill: #ffffff;
 }
 
 .modal-close-icon {
