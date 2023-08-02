@@ -459,12 +459,12 @@ img {
 .customer-icons {
   fill: currentColor;
 }
-
+/* 
 .customer-icons:hover,
 .customer-icons:focus {
   color: var(--ocean, #404bbf);
   border-color: currentColor;
-}
+} */
 
 /**
 |=========================================
@@ -561,10 +561,8 @@ img {
 }
 
 .card-link:hover .card-paragraph,
-.card-link:focus .card-paragraph{
+.card-link:focus .card-paragraph {
   transform: translateY(0%);
-
-
 }
 .card-list {
   display: flex;
@@ -751,7 +749,11 @@ img {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button-close:hover,
+.modal-button-close:hover {
+  background-color: var(--ocean);
+  border: none;
+  fill: #ffffff;
+}
 .modal-button-close:focus {
   background-color: var(--ocean);
   border: none;
@@ -759,9 +761,7 @@ img {
 }
 
 .modal-close-icon {
-  fill: var(--navy-blue);
-  width: 8px;
-  height: 8px;
+  /* fill: var(--navy-blue); */
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
